@@ -1,0 +1,143 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #041a2a; /* Dark background for contrast */
+  color: #fff;
+  line-height: 1.6;
+  overflow-x: hidden;
+  padding: 20px;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Brand Name */
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  color: #f6c350; /* Golden Color for Brand */
+  margin-bottom: 20px;
+}
+
+/* Product Description */
+h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Image Styling */
+.product-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* Price Section */
+.price-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.price-section p {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.price-section .old-price {
+  text-decoration: line-through;
+  color: #b0b0b0;
+}
+
+.price-section .new-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f6c350; /* Golden color for emphasis */
+}
+
+.price-section .cta-button {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #f6c350;
+  color: #000;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.price-section .cta-button:hover {
+  background-color: #d3a036;
+}
+
+/* About Us Section */
+.about-us {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.about-us h2 {
+  font-size: 1.5rem;
+  color: #f6c350;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 1.1rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.about-us .cta-button {
+  background-color: #f6c350;
+  padding: 12px 30px;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.1rem;
+  border-radius: 5px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .product-img {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .price-section p {
+    font-size: 1rem;
+  }
+
+  .about-us h2 {
+    font-size: 1.2rem;
+  }
+
+  .about-us p {
+    font-size: 1rem;
+  }
+}
